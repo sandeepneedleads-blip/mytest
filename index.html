@@ -5,54 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Responsive Layout Fix</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-  <div class="container mt-5">
-    <div class="intro-wrap">
-      <div class="cmpyfounderImage text-center mb-4">
-        <img
-          src="https://fastly.picsum.photos/id/975/536/354.jpg?hmac=0ajhoK5LfmzOkny2PdBz_QcZ4SxtBgb6a8fVyJP9woE"
-          alt="Founder"
-          class="img-fluid"
-        />
+  <header>
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <img style="width: 150px;" src="logo.png" alt="logo">
+        <ul class="d-flex align-items-center justify-content-between">
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+          <li>Home</li>
+        </ul>
+        <a href="#">Login</a>
       </div>
-      <div class="founder-intro">
-        <h1>My</h1>
-        <h4>Personal Information</h4>
-        <p>
-          <strong>Amandeep Singh</strong>, the visionary founder of
-          <strong>5 Trainers</strong>, embarked on a mission to revolutionize education. Hailing from Punjab, Amandeep drew inspiration from the state's name, which symbolizes one of the five essential elements that shape our lives –
-          <strong>'Punj' meaning Five</strong> and <strong>'Aab' meaning Water</strong>.
-        </p>
-      </div>
-    </div>
 
-    <!-- Full Width Text Below -->
-    <div class="mt-4">
-      <p>
-        The name '5 Trainers' is rooted in the concept of five essentials, mirroring the harmony found in nature's five elements and the five human senses. At 5 Trainers, we stand strong on the foundation of the 5 T's:
-      </p>
-
-      <p><strong>Training, Technology, Thinking, Time</strong> and <strong>Teamwork</strong></p>
-
-      <p>
-        Just as education is crucial for growth, personal development is equally important. Our founder, Mr. Amandeep, embodies this philosophy, nurturing students to become well-rounded individuals equipped for success.
-      </p>
-
-      <p>
-        The institute offers digital marketing and IT core courses complemented by
-        <strong>Personality Development, Motivation, Creative Thinking, and Networking Skills</strong>. With a passion for empowering students, Amandeep Singh's mission is to shape the next generation of leaders who can make a meaningful difference in society. Through 5 Trainers, he is redefining the profile of education and impacting a better future.
-      </p>
-
-      <p>
-        Under the leadership of Mr. Amandeep Singh, 5 Trainers' commitment to holistic education never disappoints. His qualities in building an institute not only enhance a student's educational growth but also their personal growth. The aim of producing professionals comes with better human attributes. He focuses on out-of-the-box thinking, which creates positive outcomes.
-      </p>
-    </div>
+    
   </div>
 
-  <!-- Bootstrap JS (optional) -->
+  </header>
+  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 </html>
